@@ -1,0 +1,46 @@
+Use Case Diagrams
+What are Use Case Diagrams?
+A Use Case Diagram is a visual representation of the interactions between system actors (users or external systems)
+and the system itself. It captures the functional requirements of a system by illustrating the various ways users can
+interact with it, helping to define system scope and behavior in a clear, understandable format.
+
+Benefits of Use Case Diagrams
+Visual Clarity: Provides an easily understandable overview of system functionality
+
+Stakeholder Communication: Bridges the gap between technical and non-technical stakeholders
+
+Requirement Validation: Helps identify missing or incomplete requirements early
+
+Scope Definition: Clearly outlines system boundaries and interactions
+
+Booking System Use Case Diagram
+Below is a use case diagram for the AirBnB Clone booking management system:
+
+"C:\Users\Karel Mpho\Downloads\alx-booking-uc.png.png"
+
+Diagram Components:
+Actors:
+
+Guest (unregistered user)
+
+Registered User
+
+Host (property owner)
+
+Payment Gateway (external system)
+
+Key Use Cases:
+
+Search Properties
+
+Create Account/Login
+
+Book Property
+
+Manage Listings
+
+Process Payment
+
+Write Review
+
+Manage Bookings
