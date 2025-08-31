@@ -1,0 +1,86 @@
+Acceptance Criteria
+Importance of Acceptance Criteria in Requirement Analysis
+Acceptance Criteria are conditions that a software product must satisfy to be accepted by a user, customer, 
+or other stakeholders. They play a crucial role in requirement analysis by:
+
+Providing Clarity: Defining clear, testable conditions that eliminate ambiguity about when a requirement is complete
+
+Aligning Expectations: Ensuring developers, testers, and stakeholders share a common understanding of what constitutes a successfully implemented feature
+
+Guiding Development: Serving as a checklist for developers during implementation
+
+Facilitating Testing: Providing the basis for creating test cases and validating functionality
+
+Reducing Rework: Preventing misunderstandings that lead to costly changes later in the development process
+
+Well-defined acceptance criteria help transform vague requirements into specific, verifiable conditions that ensure the delivered functionality meets business needs and user expectations.
+
+Example: Acceptance Criteria for Checkout Feature
+Feature: Checkout Process for Property Booking
+
+Scenario: Successful booking with valid payment method
+
+Acceptance Criteria:
+
+Payment Processing
+
+Given a user has selected a property and dates
+
+When they proceed to checkout with a valid payment method
+
+Then the system should process the payment successfully
+
+And display a confirmation message with booking details
+
+Booking Confirmation
+
+Given a payment has been successfully processed
+
+When the transaction is complete
+
+Then the system should create a booking record in the database
+
+And send a confirmation email to the user
+
+And notify the property host of the new booking
+
+Error Handling
+
+Given a user attempts to checkout with an invalid payment method
+
+When they submit the payment
+
+Then the system should display a clear error message
+
+And not create a booking record
+
+And not charge the user's payment method
+
+Price Calculation
+
+Given a user has selected dates for their stay
+
+When they view the checkout page
+
+Then the system should display a breakdown of costs including:
+
+Base nightly rate
+
+Cleaning fee (if applicable)
+
+Service fee
+
+Taxes
+
+Total amount
+
+Security Requirements
+
+Given a user is on the checkout page
+
+When they enter payment information
+
+Then all data transmission must be encrypted using HTTPS
+
+And no payment details should be stored in plain text
+
