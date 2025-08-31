@@ -1,0 +1,24 @@
+Key Activities in Requirement Analysis
+The process of Requirement Analysis is broken down into five key activities that transform
+vague ideas into a clear, actionable plan:
+
+Requirement Gathering
+This is the initial stage of collecting all possible needs and constraints from various stakeholders 
+(clients, users, experts) through techniques like interviews and surveys.
+
+Requirement Elicitation
+A more proactive process of drawing out latent, unexpressed, or unclear requirements that stakeholders
+may not explicitly state. Techniques include workshops and user observation to uncover the true core problems.
+
+Requirement Documentation
+The formal recording of agreed-upon requirements in a structured document. This creates a single source of truth,
+such as a Software Requirements Specification (SRS) or user stories, which guides the entire development team.
+
+Requirement Analysis and Modeling
+The critical examination of requirements to identify inconsistencies, gaps, and priorities. 
+Modeling uses visual aids like diagrams (e.g., UML, flowcharts) and prototypes to simplify
+complexity and validate the logical system design.
+
+Requirement Validation
+The final step of formally checking and confirming that the documented requirements are accurate, complete,
+and aligned with stakeholder needs. This is done through reviews and sign-offs to prevent costly changes later in the development cycle.
